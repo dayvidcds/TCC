@@ -1,0 +1,29 @@
+\chapter[Introdução]{Introdução}
+\addcontentsline{toc}{chapter}{Introdução}
+
+Um aplicativo de geolocalização projetado para ser utilizado em ambientes abertos é classificado   como   sistema   de   posicionamento   outdoor,   ou   seja,   aplicações   de geolocalização para serem utilizadas fora de construções [Carrasco-Letelier, 2015], cujo sensor mais popular é o GPS (Global Positioning System). Já nos sistemas de posicionamento indoor, o objetivo é conhecer a localização ou trajetória do usuário quando este se encontra em um ambiente fechado, por exemplo,dentro   de   uma   construção. Existem   vários   exemplos   de   aplicações   de sistemas de localização indoor. Um desses é, por exemplo, se um dos pacientes em um local pra idosos fica duas horas no banheiro, os médicos podem ser notificados de que algo está errado \cite{silvasistema}.
+
+Para as aplicações indoor o sensor GPS não é tão adequado, uma vez que o sinal é atenuado e disperso por telhados, paredes e outros objetos. Dessa forma, são utilizadas outras técnicas, que vão desde o uso de ondas de rádio a campos magnéticos e sinais acústicos \cite{curran2011evaluation}. Uma possível solução seria o uso de antenas Bluetooth, como apresentado por Bekkelien (2012): várias antenas são espalhadas por um edifício e a posição exata de cada uma deve ser registrada para que o sistema utilize esta posição como referência. A força do sinal é usada para calcular a distância do dispositivo para a antena   Bluetooth,   inferindo   assim   a   posição   do   usuário.   Um   obstáculo   na   solução descrita é a necessidade de dispositivos externos espalhados, que elevam o custo de implantação de acordo com o tamanho da área a ser coberta.
+
+Outras   abordagens   são   encontradas   como   a   utilização   de   antenas   de   wi-fi \cite{liu2007survey}, e a utilização de transmissores de rádio frequência (RFID -  Radio-Frequency IDentification ) defendidas por Fabini, Russ e Wallentin   (2013),   e   Randell   e   Muller   (2001).   Porém   essas   técnicas   também apresentam os problemas levantados quanto à aquisição de equipamentos. Uma solução para   este   problema   é   o   uso   de   sensores   presentes   em   dispositivos   móveis   como celulares, como proposto por Stockx, Hecht e Schöning (2014). Este trabalho apresenta uma implementação para o problema de posicionamento indoor,   capaz   de   fornecer   tanto   a   posição   de   um   usuário   quanto   sua   trajetória   em ambientes internos. Para isso são usados os sensores existentes nos smartphones e técnicas com Wi-Fi, já que é a tecnologia RF mais difundida e estudada pelos pesquisadores. A Identificação da Força do Sinal Recebida (IFSR) é conhecida como um recurso de propagação de sinais Wi-Fi \cite{ohara2017metric}.
+Métodos usando RSSI como um radar para localização interna estimam a distância entre transmissores com coordenadas conhecidas e um receptor baseado em valores de IFSR e um modelo de atenuação de rádio, e, em seguida, localiza o receptor com base no princípio triangulação.
+
+
+
+
+\section{Problema} 
+
+Com o aumento do número de pessoas nos centros comerciais se viu necessário o uso de tecnologias que possibilitassem aos varejistas obterem algum tipo de informação que os ajudassem a melhorar o seu negócio, pois, partir do momento em que é possível impactar o consumidor no momento mais apropriado, a performance e qualidade do serviço são otimizados. A tecnologia de geolocalização simples (GPS) deixa muito a desejar, pois possui muita tolerância a erros de leitura do sensor. A Geolocalização Interna pode se utilizar em diferentes nichos do mercado. No marketing, esta tecnologia é útil para entregar conteúdo relevante, cupons de desconto, promoções e anúncios personalizados de acordo com os hábitos de consumo da audiência.
+
+\section{Hipóteses}
+
+Através de técnicas de teoria dos grafos e triangularização, uma das hipóteses é que será possível verificar a disposição de pessoas que estão em um ambiente e também a movimentação de cada uma delas, com essa análise pode-se criar técnicas de planejamento e publicidade direcionada. 
+
+\section{Objetivos} 
+
+O objetivo dessa monografia é de estudar técnicas de triangularização de posição para através desses estudos criar uma plataforma que gere dados ao consumidor lhe mostrando que o que ele quer e/ou precisa está a poucos metros de distância.
+
+\section{Justificativa} 
+
+A tecnologia no varejo tem um papel fundamental para que varejistas consigam administrar seus negócios, analisar os resultados de seus esforços em diversas áreas, atrair clientes, e por fim, engajar com eles. Na prática isso significa que o varejo brasileiro pode explorar bastante novas soluções tecnológicas disponíveis para os smartphones brasileiros.
+

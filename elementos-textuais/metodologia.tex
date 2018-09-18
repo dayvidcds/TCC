@@ -1,0 +1,31 @@
+%\part{Metodologia}
+
+
+
+\chapter[Metodologia]{Metodologia}
+\addcontentsline{toc}{chapter}{Metodologia}
+\label{sec:experimental-design}
+
+\setcounter{footnote}{23}
+
+
+Os principais objetivos desta avaliação de desempenho são: (a) determinar o \textit{overhead} da ferramenta Bundler em ambientes virtualizados; (b) verificar qual recurso é mais crucial no ambiente virtualizado, CPU, memória RAM e/ou tempo de processamento; e (c) verificar o ganho em migrar a aplicação para o ambiente de nuvem.
+
+\subsection{Cenários}
+\label{subsec:cenarios}
+
+Neste trabalho foram feitas avaliações em dois cenários. O primeiro cenário consiste em uma máquina com configurações simples, e o segundo  O LXC foi utilizado pois utiliza recursos do Kernel do Linux para criar os \textit{containers} \cite{dua2014virtualization}.
+
+\subsection{Metodologia}
+\label{subsec:metodologia}
+
+Para alcançar os objetivos definidos neste trabalho, adaptou-se a metodologia utilizada por \cite{sousa2012evaluating} para executar os experimentos, baseado em quatro principais atividades (Figura \ref{fig:methodology}):
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\columnwidth]{imagens/metodologia.png}
+\caption{Metodologia de execução dos experimentos (adaptado de \cite{sousa2012evaluating})}
+\label{fig:methodology}
+\end{figure}
+
